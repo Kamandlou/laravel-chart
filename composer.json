@@ -1,0 +1,39 @@
+{
+  "name": "kamandlou/laravel-chart",
+  "description": "A package for create charts in laravel",
+  "keywords": [
+    "chart",
+    "laravel"
+  ],
+  "support": {
+    "issues": "https://github.com/kamandlou/laravel-chart/issues",
+    "source": "https://github.com/kamandlou/laravel-chart"
+  },
+  "authors": [
+    {
+      "name": "Kamandlou",
+      "email": "ahkamandlou@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kamandlou\\LaravelChart\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4||^8.0",
+    "illuminate/support": "^8.0|^9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kamandlou\\LaravelChart\\LaravelChartServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
