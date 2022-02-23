@@ -28,7 +28,10 @@
     "laravel": {
       "providers": [
         "Kamandlou\\LaravelChart\\LaravelChartServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "Chart": "Kamandlou\\LaravelChart\\Support\\Facades\\ChartFacade"
+      }
     }
   },
   "config": {
