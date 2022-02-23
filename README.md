@@ -1,6 +1,6 @@
 # Laravel Chart
 
-Laravel chart is a beautiful, customizable and flexible package for creating chart in Laravel.
+Laravel chart is a package for creating chart in Laravel.
 
 # Installation
 
