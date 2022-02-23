@@ -5,6 +5,7 @@
     "chart",
     "laravel"
   ],
+  "license": "MIT",
   "support": {
     "issues": "https://github.com/kamandlou/laravel-chart/issues",
     "source": "https://github.com/kamandlou/laravel-chart"
