@@ -1,6 +1,6 @@
 # Laravel Chart
 
-Laravel chart is a beautiful, customizable and flexible package for creating chart in Laravel.
+Laravel chart is a customizable and flexible package for creating chart in Laravel.
 
 # Installation
 
@@ -53,6 +53,9 @@ Laravel chart is a beautiful, customizable and flexible package for creating cha
                 ]
             ]
         ]
+    ],
+    [
+      'name' => 'laravel-chart' // for send parameters to blade file 
     ])->render('index');
    ```
 ### Or
@@ -84,7 +87,9 @@ return Chart::id('myChart')
                 ]
             ]
         ])
-        ->render('index');
+        ->render('index',[
+            'name' => 'laravel-chart' // for send parameters to blade file 
+        ]);
 ```
 ### for see more option go to chart.js documention
 
