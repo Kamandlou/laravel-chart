@@ -53,9 +53,6 @@ Laravel chart is a customizable and flexible package for creating chart in Larav
                 ]
             ]
         ]
-    ],
-    [
-      'name' => 'laravel-chart' // for send parameters to blade file 
     ])->render('index');
    ```
 ### Or
@@ -87,9 +84,7 @@ return Chart::id('myChart')
                 ]
             ]
         ])
-        ->render('index',[
-            'name' => 'laravel-chart' // for send parameters to blade file 
-        ]);
+        ->render('index');
 ```
 ### for see more option go to chart.js documention
 
