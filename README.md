@@ -89,7 +89,3 @@ return Chart::id('myChart')
 ### for see more option go to chart.js documention
 
 [Chart.js Document](https://www.chartjs.org/docs/latest/getting-started/)
-
-### note
-
-- This package is under development
